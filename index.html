@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="formOutput"></p>
+    <form onsubmit="submitForm(event)">
+        <label for="textInput">Enter some text:</label><br>
+        <input type="text" name="textInput" id="textInput" required><br>
+        <br>
+
+        <label for="numberInput">Enter a number, must be a multiple of 5:</label><br>
+        <input type="number" name="numberInput" id="numberInput" min="1", max="100" required><br>
+        <br>
+
+        <input type="submit" value="Click me to submit!">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
